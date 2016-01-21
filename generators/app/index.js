@@ -18,7 +18,7 @@ module.exports = yeoman.generators.Base.extend({
     var prompts = [{
       type: 'input',
       name: 'deleteContent',
-      message: 'Empty this folder before generating the solution ? (y/n):'
+      message: 'Delete the contents of this directory before generation (.git will be preserved) ? (y/n):'
     },
     {
       type: 'input',
@@ -46,7 +46,7 @@ module.exports = yeoman.generators.Base.extend({
   
     console.log('Emptying target folder...');
     if ( this.props.deleteContent == 'y' )
-        del.sync(['**/*', '!.git'], { force: true, dot: true });
+        del.sync(['**/*', '!.git', '!.git/**/*'], { force: true, dot: true });
     
     var projectName = this.props.projectName;
     var lowerProjectName = projectName.toLowerCase(); 
