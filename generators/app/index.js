@@ -12,10 +12,15 @@ module.exports = yeoman.generators.Base.extend({
     var done = this.async();
 
     // Greet the user
-    this.log(yosay('Welcome to the ' + chalk.red('dgp-toolbox-aspnet5') + ' generator!'));
+    this.log(yosay('Welcome to the ' + chalk.red('dgp-toolbox-aspnetcore') + ' generator!'));
 
     // Ask project properties
     var prompts = [{
+      type: 'input',
+      name: 'deleteContent',
+      message: 'Delete the contents of this directory before generation (.git will be preserved) ? (y/n):'
+    },
+    {
       type: 'input',
       name: 'projectName',
       message: 'Enter the name of the new project (without Toolbox):'
@@ -40,7 +45,8 @@ module.exports = yeoman.generators.Base.extend({
   writing: function () {
   
     console.log('Emptying target folder...');
-    del.sync('**/*', { force: true, dot: true });
+    if ( this.props.deleteContent == 'y' )
+        del.sync(['**/*', '!.git', '!.git/**/*'], { force: true, dot: true });
     
     var projectName = this.props.projectName;
     var lowerProjectName = projectName.toLowerCase(); 
