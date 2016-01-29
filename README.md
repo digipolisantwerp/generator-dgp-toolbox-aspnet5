@@ -1,6 +1,6 @@
-# generator-dgp-toolbox-aspnet5
+# generator-dgp-toolbox-aspnetcore
 
-> ASP.NET 5 generator for toolbox projects.
+> Generator for ASP.NET Core 1.0 toolbox projects.
 
 ## Installatie
 
@@ -17,13 +17,13 @@ The _**-g**_ installe Yeoman globally so you can use it anywhere.
 Install the generator :
 
 ``` bash
-npm install generator-dgp-toolbox-aspnet5 -g
+npm install generator-dgp-toolbox-aspnetcore -g
 ```
 
-## Generate a new ASP.NET 5 toolbox project
+## Generate a new ASP.NET Core 1.0 toolbox project
 
 Generate the project in a new or empty directory with
 
 ``` bash
-yo dgp-toolbox-aspnet5
+yo dgp-toolbox-aspnetcore
 ```

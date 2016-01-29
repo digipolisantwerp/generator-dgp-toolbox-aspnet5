@@ -12,7 +12,7 @@ module.exports = yeoman.generators.Base.extend({
     var done = this.async();
 
     // Greet the user
-    this.log(yosay('Welcome to the ' + chalk.red('dgp-toolbox-aspnetcore1') + ' generator!'));
+    this.log(yosay('Welcome to the ' + chalk.red('dgp-toolbox-aspnetcore') + ' generator!'));
 
     // Ask project properties
     var prompts = [{

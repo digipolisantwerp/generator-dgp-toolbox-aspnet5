@@ -1,7 +1,7 @@
 {
-  "name": "generator-dgp-toolbox-aspnetcore1",
+  "name": "generator-dgp-toolbox-aspnetcore",
   "version": "0.0.1",
-  "description": "ASP.NET Core 1.0 generator for toolbox projects.",
+  "description": "Generator for ASP.NET Core 1.0 toolbox projects.",
   "homepage": "",
   "author": {
     "name": "digipolis.be",
@@ -34,7 +34,7 @@
     "gulp-plumber": "^1.0.0",
     "gulp-nsp": "^2.1.0"
   },
-  "repository": "/generator-dgp-toolbox-aspnetcore1",
+  "repository": "/generator-dgp-toolbox-aspnetcore",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
