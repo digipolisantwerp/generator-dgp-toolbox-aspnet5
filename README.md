@@ -2,7 +2,7 @@
 
 > Generator for ASP.NET Core 1.0 toolbox projects.
 
-## Installatie
+## Installation
 
 You need to have a recent version of NodeJs (https://nodejs.org/en/). 
 
@@ -12,7 +12,7 @@ Install Yeoman :
 npm install yo -g
 ``` 
 
-The _**-g**_ installe Yeoman globally so you can use it anywhere.
+The **-g** will install Yeoman globally so you can use it anywhere.
 
 Install the generator :
 
