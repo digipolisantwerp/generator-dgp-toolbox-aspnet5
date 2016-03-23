@@ -23,7 +23,7 @@ module.exports = yeoman.generators.Base.extend({
     {
       type: 'input',
       name: 'projectName',
-      message: 'Enter the name of the new project (without Toolbox):'
+      message: 'Enter the name of the new project (without Digipolis.Toolbox):'
     },
     {
       type: 'input',
@@ -84,8 +84,10 @@ module.exports = yeoman.generators.Base.extend({
      
      nd.files(source, function (err, files) {
       for ( var i = 0; i < files.length; i++ ) {
-        var filename = files[i].replace(/StarterKit/g, projectName).replace(/starterkit/g, lowerProjectName).replace(source, dest);
-        //console.log(files[i] + ' --> ' + filename);
+        var filename = files[i].replace(/StarterKit/g, projectName)
+                               .replace(/starterkit/g, lowerProjectName)
+                               .replace(".npmignore", ".gitignore")
+                               .replace(source, dest);
         fs.copy(files[i], filename, copyOptions);
       }
     });
