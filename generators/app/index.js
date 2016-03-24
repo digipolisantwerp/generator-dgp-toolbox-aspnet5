@@ -18,12 +18,13 @@ module.exports = yeoman.generators.Base.extend({
     var prompts = [{
       type: 'input',
       name: 'deleteContent',
-      message: 'Delete the contents of this directory before generation (.git will be preserved) ? (y/n):'
+      message: 'Delete the contents of this directory before generation (.git will be preserved) ? (y/n):',
+      default: 'y'
     },
     {
       type: 'input',
       name: 'projectName',
-      message: 'Enter the name of the new project (without Digipolis.Toolbox):'
+      message: 'Enter the name of the new toolbox project (without Digipolis.Toolbox):'
     },
     {
       type: 'input',
