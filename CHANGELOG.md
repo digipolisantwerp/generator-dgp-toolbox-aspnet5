@@ -15,3 +15,7 @@
 ## 1.0.3
 
 - default for empty directory prompt.
+
+## 1.0.4
+
+- update notifier added.

@@ -5,6 +5,8 @@ var yosay = require('yosay');
 var del = require('del');
 var nd = require('node-dir');
 var Guid = require('guid');
+var updateNotifier = require('update-notifier');
+var pkg = require('./../../package.json');
 
 module.exports = yeoman.generators.Base.extend({
   
@@ -12,8 +14,15 @@ module.exports = yeoman.generators.Base.extend({
     var done = this.async();
 
     // Greet the user
-    this.log(yosay('Welcome to the ' + chalk.red('dgp-toolbox-aspnetcore') + ' generator!'));
+    this.log(yosay('Welcome to the fantastic Yeoman ' + chalk.green('dgp-toolbox-aspnetcore') + ' ' + chalk.blue('(1.0.4)') + ' generator!'));
 
+    var notifier = updateNotifier({
+        pkg,
+        updateCheckInterval: 1000 * 60 * 5      // check every 5 minutes. 
+    });
+    notifier.notify();
+    if (notifier.update != undefined) return;
+    
     // Ask project properties
     var prompts = [{
       type: 'input',

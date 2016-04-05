@@ -1,6 +1,6 @@
 {
   "name": "generator-dgp-toolbox-aspnetcore",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generator for ASP.NET Core 1.0 toolbox projects.",
   "homepage": "",
   "author": {
@@ -21,6 +21,7 @@
     "guid": "0.0.12",
     "node-dir": "^0.1.11",
     "rimraf": "^2.4.4",
+    "update-notifier": "^0.6.3",
     "yeoman-generator": "^0.21.1",
     "yosay": "^1.0.2"
   },
@@ -35,8 +36,8 @@
     "gulp-nsp": "^2.1.0"
   },
   "repository": {
-      "type": "git",
-      "url": "/generator-dgp-toolbox-aspnetcore"
+    "type": "git",
+    "url": "/generator-dgp-toolbox-aspnetcore"
   },
   "scripts": {
     "prepublish": "gulp prepublish",
