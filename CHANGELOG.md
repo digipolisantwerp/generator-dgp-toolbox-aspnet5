@@ -19,3 +19,7 @@
 ## 1.0.4
 
 - update notifier added.
+
+## 1.0.5
+
+- added version file.
