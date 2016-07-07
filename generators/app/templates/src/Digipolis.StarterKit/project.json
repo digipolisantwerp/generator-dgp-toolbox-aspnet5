@@ -1,0 +1,23 @@
+{
+	"version": "1.0.0",
+	"description": "StarterKit-Description",
+	"authors": [ "StarterKit-Author" ],
+	"packOptions": {
+        "tags": [ "Toolbox", "StarterKit" ],
+        "repository": {
+            "type": "git",
+            "url": ""
+        },
+        "projectUrl": "",
+        "licenseUrl": ""
+    },
+	"dependencies": {
+		"NETStandard.Library": "1.6.0"
+	},
+	"frameworks": {
+        "netstandard1.6": {
+            "imports": "dnxcore50"
+        }
+    }
+}
+
