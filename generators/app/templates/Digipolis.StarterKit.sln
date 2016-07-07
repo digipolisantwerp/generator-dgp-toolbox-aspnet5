@@ -18,9 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05A3A5CE-465
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{079636FA-0D93-4251-921A-013355153BF5}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Digipolis.Toolbox.StarterKit", "src\Digipolis.Toolbox.StarterKit\Digipolis.Toolbox.StarterKit.xproj", "{BD79C050-331F-4733-87DE-F650976253B5}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Digipolis.StarterKit", "src\Digipolis.StarterKit\Digipolis.StarterKit.xproj", "{BD79C050-331F-4733-87DE-F650976253B5}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Digipolis.Toolbox.StarterKit.UnitTests", "test\Digipolis.Toolbox.StarterKit.UnitTests\Digipolis.Toolbox.StarterKit.UnitTests.xproj", "{0A3016FD-A06C-4AA1-A843-DEA6A2F01696}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Digipolis.StarterKit.UnitTests", "test\Digipolis.StarterKit.UnitTests\Digipolis.StarterKit.UnitTests.xproj", "{0A3016FD-A06C-4AA1-A843-DEA6A2F01696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

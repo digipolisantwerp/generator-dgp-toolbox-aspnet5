@@ -23,3 +23,19 @@
 ## 1.0.5
 
 - added version file.
+
+## 1.0.6
+
+- upgrade to .NET Core 1.0 RTM.
+
+## 1.0.7
+
+- typo's.
+
+## 1.0.8
+
+- corrections in xproj's for .NET Core 1.0 RTM.
+
+## 1.0.9
+
+- output paths in xproj's.
