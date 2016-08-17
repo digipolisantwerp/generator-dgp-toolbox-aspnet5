@@ -39,3 +39,8 @@
 ## 1.0.9
 
 - output paths in xproj's.
+
+## 2.0.0
+
+- upgrade to ASP.NET Core 1.0 RTM
+
