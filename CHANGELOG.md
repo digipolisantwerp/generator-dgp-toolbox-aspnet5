@@ -1,5 +1,9 @@
 # generator-dgp-toolbox-aspnetcore
 
+# 3.0.0
+
+- conversion to csproj project files and MSBuild.
+
 # 2.0.1
 
 - updated Moq package

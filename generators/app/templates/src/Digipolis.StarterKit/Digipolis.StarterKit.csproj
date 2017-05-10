@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>StarterKit-Description</Description>
+    <Authors>StarterKit-Author</Authors>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>Digipolis.StarterKit</AssemblyName>
+    <PackageId>Digipolis.StarterKit</PackageId>
+    <PackageTags>Toolbox;StarterKit</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+  </PropertyGroup>
+
+</Project>

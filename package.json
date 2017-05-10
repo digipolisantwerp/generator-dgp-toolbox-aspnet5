@@ -1,7 +1,7 @@
 {
   "name": "generator-dgp-toolbox-aspnetcore",
-  "version": "2.0.1",
-  "description": "Generator for ASP.NET Core 1.0 toolbox projects.",
+  "version": "3.0.0",
+  "description": "Generator for .NET Standard 1.6 toolbox projects.",
   "homepage": "",
   "author": {
     "name": "digipolis.be",
