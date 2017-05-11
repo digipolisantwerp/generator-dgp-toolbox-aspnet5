@@ -15,7 +15,8 @@ StarterKit-Description
 
 To add the toolbox to a project, you add the package to the csproj-file :
 
-``` <ItemGroup>
+```xml
+  <ItemGroup>
     <PackageReference Include="Digipolis.StarterKit" Version="1.0.0" />
   </ItemGroup>
 ``` 
