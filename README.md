@@ -1,6 +1,6 @@
 # generator-dgp-toolbox-aspnetcore
 
-> Generator for ASP.NET Core 1.0 toolbox projects.
+> Generator for .Net Standard 1.6 toolbox projects.
 
 ## Installation
 
@@ -20,7 +20,7 @@ Install the generator :
 npm install generator-dgp-toolbox-aspnetcore -g
 ```
 
-## Generate a new ASP.NET Core 1.0 toolbox project
+## Generate a new NET Standard 1.6 toolbox project
 
 Generate the project in a new or empty directory with
 
